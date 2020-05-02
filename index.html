@@ -126,7 +126,9 @@
           </div>
           <div>
             <ul>
-              <li><p>Perintah: </br><input type="text" size="24" style="background-color:#121212; color:#66317C; border: solid 0px" value="sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -o /etc/hosts" /></p></li>
+              <li><p>Perintah: </br><input type="text" size="24" style="background-color:#121212; color:#66317C; border: solid 0px" value="sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/bebasid.sh -O /usr/local/bin/bebasid" /></p></li></br>
+              <li><p>Berikan permission: </br><input type="text" size="24" style="background-color:#121212; color:#66317C; border: solid 0px" value="sudo chmod +x /usr/local/bin/bebasid" /></p></li></br>
+              <li><p>Bantuan: </br><input type="text" size="24" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid --help" /></p></li></br>
             </ul>
           </div>
         </div>
@@ -154,7 +156,10 @@
           </div>
           <div>
             <ul>
+              <li><p>CLI:</p></li>
               <li><i class="ion-android-download icon-small"></i><a href="https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid.bat"> windows_x32_x64 </a></li>
+              <li><p>GUI:</p></li>
+              <li><p>Saat ini <a href="https://github.com/bebasid/bebasin"> bebasin </a> masih dalam tahap pengembangan</p></li>
             </ul>
           </div>
         </div>
@@ -167,16 +172,16 @@
       <h2>Ekstensi</h2>
     </div>
     <div class="row">
-      <div class="col span-1-of-3">
+        <div class="col span-1-of-3">
         <div class="os-box js--wp-4">
           <div>
-            <h3>GoodbyeDPI</h3>
+            <h3>Localhost</h3>
           </div>
           <div>
             <ul>
-              <li><i class="ion-android-download icon-small"></i><a href="https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gdpi.zip"> bebasid-gdpi_x32_x64 </a></li>
-              <li><p>• Jalankan service_install_dnsredir.cmd untuk memasang aplikasi</br></p></li>
-              <li><p>• Buka run_dnsredir.cmd atau pilih salah satu config DNS yang sudah disediakan</br></p></li>
+              <li><p>Perintah: </br><input type="text" size="24" style="background-color:#121212; color:#66317C; border: solid 0px" value="wget https://github.com/bebasid/bebasid/raw/master/dev/scripts/localhost.sh" /></p></li></br>
+              <li><p>Jalankan: </br><input type="text" size="24" style="background-color:#121212; color:#66317C; border: solid 0px" value="sudo bash localhost.sh" /></p></li></br>
+            <li><p>Gunakan jika localhost tidak bisa berjalan dengan baik di device yang kamu gunakan, juga ada tambahan untuk mematikan fitur SafeSearch Google dan Youtube</br></p></li>
             </ul>
           </div>
         </div>
@@ -184,7 +189,20 @@
       <div class="col span-1-of-3">
         <div class="os-box">
           <div>
-            <h3>Green Tunnel</h3>
+            <h3>GoodbyeDPI</h3>
+          </div>
+          <div>
+            <ul>
+              <li><i class="ion-android-download icon-small"></i><a href="https://github.com/bebasid/bebasit/releases/download/v0.0.1/bebasit-gdpi.zip"> bebasit-gdpi_x32_x64 </a></li>
+              <li><p>• Silahkan buka panduan di dalam file untuk cara penggunaannya</br></p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col span-1-of-3">
+        <div class="os-box">
+          <div>
+            <h3>Green Tunnel (BETA)</h3>
           </div>
           <div>
             <ul>
@@ -196,38 +214,44 @@
           </div>
         </div>
       </div>
+  </section>
+
+    <section class="section-plans js--section-plans" id="plans2">
+    <div class="row">
         <div class="col span-1-of-3">
-        <div class="os-box">
+        <div class="os-box js--wp-4">
           <div>
-            <h3>Localhost</h3>
+            <h3>Green Tunnel MAC</h3>
           </div>
           <div>
             <ul>
-              <li><p>Perintah: </br><input type="text" size="24" style="background-color:#121212; color:#66317C; border: solid 0px" value="wget https://github.com/bebasid/bebasid/raw/master/dev/commands/localhost.sh" /></p></li></br>
-              <li><p>Jalankan: </br><input type="text" size="24" style="background-color:#121212; color:#66317C; border: solid 0px" value="sudo bash localhost.sh" /></p></li></br>
-            <li><p>Gunakan jika localhost tidak bisa berjalan dengan baik di device yang kamu gunakan, juga ada tambahan untuk mematikan fitur SafeSearch Google dan Youtube</br></p></li>
+              <li><p>Masih dalam tahap pengembangan</p></li>
             </ul>
           </div>
         </div>
       </div>
-  </section>
-  
-    <section class="section-plans js--section-plans" id="plans">
-    <div class="row">
       <div class="col span-1-of-3">
-        <div class="os-box js--wp-4">
-       <div>
-            <h3>Green Tunnel (Mac)</h3>
+        <div class="os-box">
+          <div>
+            <h3>zapret</h3>
           </div>
           <div>
             <ul>
-              <li><p>Perintah: </br><input type="text" size="24" style="background-color:#121212; color:#66317C; border: solid 0px" value="sudo curl -o /usr/local/bin/bebasid-gt https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/green-tunnel/gt-mac.sh" /></p></li></br>
-              <li><p>Install bebasid-gt: </br><input type="text" size="24" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid-gt install" /></p></li></br>
-              <li><p>Jalankan: </br><input type="text" size="24" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid-gt start" /></p></li></br>
-              <li><p>Berhentikan: </br><input type="text" size="24" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid-gt stop" /></p></li></br>
+              <li><p>Masih dalam tahap pengembangan</p></li>
             </ul>
           </div>
         </div>
+      </div>
+      <div class="col span-1-of-3">
+        <div class="os-box">
+          <div>
+            <h3>PowerTunnel</h3>
+          </div>
+          <div>
+            <ul>
+              <li><p>Masih dalam tahap pengembangan</p></li>
+            </ul>
+          </div>
         </div>
       </div>
   </section>
@@ -260,22 +284,20 @@
         <ul class="footer-nav">
           <li><a href="https://github.com/bebasid/bebasid/blob/master/LICENSE">Lisensi</a></li>
           <li><a href="https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md">Sangkalan</a></li>
-          <li><a href="https://github.com/bebasid/bebasid/archive/master.zip">Gandakan</a></li>
-          <li><a href="https://www.internetnetral.com">Internet Netral</a></li>
           <li><a href="https://github.com/bebasid/bebasid/blob/master/dev/readme/FAQ.md">FAQ</a></li>
-          <li><a href="https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md">Kontribusi</a></li>
+          <li><a href="https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md">Berkontribusi</a></li>
         </ul>
       </div>
       <div class="col span-1-of-2">
         <ul class="social-links">
-          <li><a href="https://github.com/bebasid/bebasid"><i class="ion-social-github"></i></a></li>
+          <li><a href="https://github.com/bebasid"><i class="ion-social-github"></i></a></li>
           <li><a href="https://discord.gg/q7AAX3W"><i class="ion-pound"></i></a></li>
         </ul>
       </div>
     </div>
     <div class="row">
       <p>
-        Copyright bebasid &copy; 2020 (MIT). All rights reserved.
+        Copyright bebasid oleh KINI &copy; 2020 (MIT). All rights reserved.
       </p><a href="no_empty_iframes_testpage.html"></a>
     </div>
   </footer>
