@@ -15,6 +15,20 @@
   <meta name="msapplication-config" content="browserconfig.115cb9dc.xml">
   <meta name="theme-color" content="#ffffff">
   <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  <style>
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25% !important; 
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+  </style>
 </head>
 
 <body>
@@ -132,11 +146,28 @@
         <h2><i class="ion-social-windows icon-big"></i> WINDOWS</h2>
       </div>
     <div class="row">
-      <div class="col span-2-of-2 gallery">
+      <div class="col span-1-of-2 gallery">
         <div class="os-box js--wp-4">
-            <img data-src="https://raw.githubusercontent.com/bebasid/bebasit/master/docs/gif/bebasit-win.gif" style="object-fit: cover; width:100%; height:100%" src="https://raw.githubusercontent.com/bebasid/bebasit/master/docs/gif/bebasit-win.gif">
-          </div>
-          </div>
+            <div>
+              <h3><ion-icon name="videocam" style="color:#66317c;" class="icon-small"></ion-icon>
+                Video Instalasi JRE</h3>
+            </div>
+            <div class="videoWrapper">
+            <iframe width="560" height="349" src="https://www.youtube.com/embed/_7uATJymKF4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class ="video" allowfullscreen></iframe>
+            </div>
+        </div>
+      </div>
+            <div class="col span-1-of-2 gallery">
+        <div class="os-box js--wp-4">
+            <div>
+              <h3><ion-icon name="videocam" style="color:#66317c;" class="icon-small"></ion-icon>
+                Gambar Bergerak BEBASIT</h3>
+            </div>
+            <div>
+            <a href="https://raw.githubusercontent.com/bebasid/bebasit/master/docs/gif/bebasit-win.gif" title="Preferences"><img data-src="https://raw.githubusercontent.com/bebasid/bebasit/master/docs/gif/bebasit-win.gif" alt="Preferences" class=" lazyloaded" style="object-fit: cover; width:100%; height:100%"  src="https://raw.githubusercontent.com/bebasid/bebasit/master/docs/gif/bebasit-win.gif"></a>
+            </div>
+        </div>
+      </div>
     </div>
     <!-- CURR_VER: 1.7.19 -->
     <div class="row">
@@ -196,7 +227,7 @@
       </div>
       </div>
   </section>
-  
+
   <!-- SECTION ORANG KAYA-->
   <section class="section-plans js--section-plans" id="install-mac">
     <!-- CURR_VER: 1.7.19 -->
@@ -232,7 +263,7 @@
                 <li><p>2. NodeJS + NPM (untuk metode GreenTunnel)</p></li><br>
                 <li><p>3. Java Runtime Environment 7+ (hanya untuk metode PowerTunnel)</p></li><br>
                 <li><p>4. Green Tunnel / PowerTunnel</p></li><br>
-                <li><p>5. Aplikasi bebasid</p></li><br><br>
+                <li><p>5. <a href="https://bebasid.github.io/#plans">Aplikasi bebasid</a></p></li><br>
                 <li><p>Aplikasi nomor 2, 3, dan 4 akan terpasang dalam Prosedur Instalasi di bawah</p></li><br>
               </ul>
             </div>
@@ -248,7 +279,7 @@
             </div>
             <div>
               <ul>
-                <li><p>1. Buka terminal</p></li><br>
+                  <li><p>1. Buka terminal dan pastikan aplikasi bebasid telah terpasang<br><input type="text" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid --help" /></p></li><br>
                 <li><p>2. Masukkan perintah dibawah ini<br><input type="text" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid tunnel install gt" /></p></li><br>
                 <li><p>3. Aplikasi akan memasang NodeJS, NPM, dan Green Tunnel</p></li><br>
                 <li><p>4. Tunggu hingga selesai dan pastikan tidak ada error</p></li><br>
@@ -266,7 +297,7 @@
             </div>
             <div>
               <ul>
-                <li><p>1. Buka terminal Linux</p></li><br>
+                <li><p>1. Buka terminal dan pastikan aplikasi bebasid telah terpasang<br><input type="text" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid --help" /></p></li><br>
                 <li><p>2. Masukkan perintah dibawah ini<br><input type="text" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid tunnel install pt" /></p></li><br>
                 <li><p>3. Aplikasi akan memasang OpenJRE dan Green Tunnel</p></li><br>
                 <li><p>4. Tunggu hingga selesai dan pastikan tidak ada error</p></li><br>
@@ -290,6 +321,48 @@
                 <li><p>3. Tunggu hingga Google Chrome terbuka secara otomatis</p></li><br>
                 <li><p>4. Selamat menonton</p></li><br>
                 <li><p>5. Untuk berhenti, cukup tekan [Enter] di terminal</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row span 1-of-3">
+        <div class="col span-2-of-2">
+          <div class="os-box js--wp-4">
+            <div>
+              <h3><ion-icon name="book" style="color:#66317c;" class="icon-small"></ion-icon>
+                Catatan</h3>
+            </div>
+            <div>
+              <ul>
+                <li><p>1. Terminal dapat ditutup selama masih streaming asalkan nanti diberhentikan dengan command</li><br>
+                <li><p>2. Kami tidak dapat menjamin bahwa Netflix dapat diunblok (ada beberapa kasus dimana aplikasi gagal menembus DPI)</li><br>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row span 1-of-3">
+        <div class="col span-2-of-2">
+          <div class="os-box js--wp-4">
+            <div>
+              <h3><ion-icon name="walk" style="color:#66317c;" class="icon-small"></ion-icon>
+                Daftar Perintah</h3>
+            </div>
+            <div>
+              <ul>
+                <li><p>Pengisian <input type="text" style="background-color:#121212; color:#66317C; border: solid 0px" value="[aplikasi]"/><br>
+                GreenTunnel: <input type="text" style="background-color:#121212; color:#66317C; border: solid 0px" value="gt"/><br>
+                PowerTunnel: <input type="text" style="background-color:#121212; color:#66317C; border: solid 0px" value="pt"/></p>
+                </li><br>
+                <li><p>- Pemasangan aplikasi penembus DPI<br>
+                <input type="text" size="50" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid tunnel install [aplikasi]" /></p></li><br>
+                <li><p>- Menjalankan aplikasi dengan Google Chrome<br>
+                <input type="text" size="50" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid tunnel start [aplikasi]" /></p></li><br>
+                <li><p>- Menjalankan aplikasi tanpa Google Chrome<br>
+                <input type="text" size="50" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid tunnel start [aplikasi] --nb" /></p></li><br>
+                <li><p>- Menghentikan aplikasi<br>
+                <input type="text" size="50" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid tunnel stop" /></p></li><br>
               </ul>
             </div>
           </div>
@@ -332,7 +405,7 @@
                 <li><p>2. NodeJS + NPM (untuk metode GreenTunnel)</p></li><br>
                 <li><p>3. Java Runtime Environment 7+ (hanya untuk metode PowerTunnel)</p></li><br>
                 <li><p>4. Green Tunnel / PowerTunnel</p></li><br>
-                <li><p>5. Aplikasi bebasid</p></li><br><br>
+                                <li><p>5. <a href="https://bebasid.github.io/#plans">Aplikasi bebasid</a></p></li><br>
                 <li><p>Aplikasi nomor 2, 3, dan 4 akan terpasang dalam Prosedur Instalasi di bawah</p></li><br>
 
               </ul>
@@ -349,7 +422,7 @@
             </div>
             <div>
               <ul>
-                <li><p>1. Buka terminal Linux</p></li><br>
+                                <li><p>1. Buka terminal Linux dan pastikan aplikasi bebasid telah terpasang<br><input type="text" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid --help" /></p></li><br>
                 <li><p>2. Masukkan perintah dibawah ini<br><input type="text" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid tunnel install gt" /></p></li><br>
                 <li><p>3. Aplikasi akan memasang NodeJS, NPM, dan Green Tunnel</p></li><br>
                 <li><p>4. Tunggu hingga selesai dan pastikan tidak ada error</p></li><br>
@@ -367,7 +440,7 @@
             </div>
             <div>
               <ul>
-                <li><p>1. Buka terminal Linux</p></li><br>
+                                <li><p>1. Buka terminal Linux dan pastikan aplikasi bebasid telah terpasang<br><input type="text" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid --help" /></p></li><br>
                 <li><p>2. Masukkan perintah dibawah ini<br><input type="text" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid tunnel install pt" /></p></li><br>
                 <li><p>3. Aplikasi akan memasang OpenJRE dan Green Tunnel</p></li><br>
                 <li><p>4. Tunggu hingga selesai dan pastikan tidak ada error</p></li><br>
@@ -396,16 +469,48 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
-    <section class="section-codemirror" id="customization">
-    <div class="row">
-      <h2>Traktir kami kopi</h2>
-      <p class="long-copy" align="center">
-        Bantu proyek ini tetap berjalan dengan cara berdonasi. Untuk caranya, kamu bisa kirim nominal berapapun ke kode QRIS berikut. Donasi yang diberikan akan digunakan untuk pengembangan proyek.
-      </p>
-      <br>
-              <center><img src="https://bebasid.github.io/resources/img/SOTO PAK SALAM.png" alt="QRIS" width="375" height="375"></center>
+            <div class="row span 1-of-3">
+        <div class="col span-2-of-2">
+          <div class="os-box js--wp-4">
+            <div>
+              <h3><ion-icon name="book" style="color:#66317c;" class="icon-small"></ion-icon>
+                Catatan</h3>
+            </div>
+            <div>
+              <ul>
+                <li><p>1. Terminal dapat ditutup selama masih streaming asalkan nanti diberhentikan dengan command</li><br>
+                <li><p>2. Kami tidak dapat menjamin bahwa Netflix dapat diunblok (ada beberapa kasus dimana aplikasi gagal menembus DPI)</li><br>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row span 1-of-3">
+        <div class="col span-2-of-2">
+          <div class="os-box js--wp-4">
+            <div>
+              <h3><ion-icon name="walk" style="color:#66317c;" class="icon-small"></ion-icon>
+                Daftar Perintah</h3>
+            </div>
+            <div>
+              <ul>
+                <li><p>Pengisian <input type="text" style="background-color:#121212; color:#66317C; border: solid 0px" value="[aplikasi]"/><br>
+                GreenTunnel: <input type="text" style="background-color:#121212; color:#66317C; border: solid 0px" value="gt"/><br>
+                PowerTunnel: <input type="text" style="background-color:#121212; color:#66317C; border: solid 0px" value="pt"/></p>
+                </li><br>
+                <li><p>- Pemasangan aplikasi penembus DPI (hanya untuk Debian dan Arch (serta turunannya)<br>
+                <input type="text" size="50" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid tunnel install [aplikasi]" /></p></li><br>
+                <li><p>- Menjalankan aplikasi dengan Google Chrome<br>
+                <input type="text" size="50" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid tunnel start [aplikasi]" /></p></li><br>
+                <li><p>- Menjalankan aplikasi tanpa Google Chrome<br>
+                <input type="text" size="50" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid tunnel start [aplikasi] --nb" /></p></li><br>
+                <li><p>- Menghentikan aplikasi<br>
+                <input type="text" size="50" style="background-color:#121212; color:#66317C; border: solid 0px" value="bebasid tunnel stop" /></p></li><br>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <section class="section-form" id="contact">
